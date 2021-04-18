@@ -1,6 +1,6 @@
 .header {
   // display: flex;
-  border-bottom: 1px solid #ececec;
+  border-bottom: 3px solid #ececec;
   position: relative;
   // justify-content: space-between;
 }
@@ -29,7 +29,7 @@
 }
 @media screen and (min-width: 1200px) {
   .header {
-    display: flex;
+    // display: flex;
     // justify-content: space-between;
   }
   .header__address {

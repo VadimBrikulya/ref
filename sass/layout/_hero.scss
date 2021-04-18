@@ -14,7 +14,12 @@
   background-position: center top;
   background-size: cover;
 }
-
+.btn {
+  outline: 1px solid red;
+  display: block;
+  // justify-content: center;
+  text-align: center;
+}
 .hero__title {
   max-width: 360px;
   margin-left: auto;
@@ -56,6 +61,12 @@
     background-size: 768px 400px;
   }
 }
+.btn {
+  outline: 1px solid red;
+  display: block;
+  // justify-content: center;
+  text-align: center;
+}
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
   screen and (min-resolution: 192dpi) and (min-width: 768px),
   screen and (min-resolution: 2dppx) and (min-width: 768) {
@@ -81,6 +92,7 @@
     background-position: center top;
     background-size: 1600px 600px;
   }
+
   .hero__title {
     max-width: 696px;
     margin-left: auto;
@@ -95,6 +107,7 @@
     text-align: center;
   }
 }
+
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 1600px),
   screen and (min-resolution: 192dpi) and (min-width: 1600px),
   screen and (min-resolution: 2dppx) and (min-width: 1600) {

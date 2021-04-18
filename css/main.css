@@ -568,7 +568,9 @@ a {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    margin-top: 0;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .navigation__item:not(:last-child) {
     margin-right: 50px;
@@ -618,9 +620,6 @@ a {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
   }
   .navigation__item:not(:last-child) {
     margin-right: 50px;
@@ -1473,6 +1472,12 @@ a {
   background-size: cover;
 }
 
+.btn {
+  outline: 1px solid red;
+  display: block;
+  text-align: center;
+}
+
 .hero__title {
   max-width: 360px;
   margin-left: auto;
@@ -1503,6 +1508,12 @@ a {
     background-position: center top;
     background-size: 768px 400px;
   }
+}
+
+.btn {
+  outline: 1px solid red;
+  display: block;
+  text-align: center;
 }
 
 @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px), screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px), screen and (min-resolution: 192dpi) and (min-width: 768px), screen and (-webkit-min-device-pixel-ratio: 2) and (min-width: 768), screen and (min-resolution: 2dppx) and (min-width: 768) {
@@ -1545,7 +1556,7 @@ a {
 }
 
 .header {
-  border-bottom: 1px solid #ececec;
+  border-bottom: 3px solid #ececec;
   position: relative;
 }
 
@@ -1584,11 +1595,6 @@ a {
 }
 
 @media screen and (min-width: 1200px) {
-  .header {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
   .header__address {
     padding-top: 32px;
     display: -webkit-box;

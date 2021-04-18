@@ -51,7 +51,7 @@
 @media screen and (min-width: 768px) {
   .navigation__menu {
     display: flex;
-    margin-top: 0;
+    align-items: center;
   }
 
   .navigation__item:not(:last-child) {
@@ -101,7 +101,6 @@
 @media screen and (min-width: 1200px) {
   .navigation__menu {
     display: flex;
-    align-items: center;
   }
 
   .navigation__item:not(:last-child) {

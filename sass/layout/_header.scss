@@ -24,7 +24,7 @@
   .header__address {
     display: inline-block;
     padding-bottom: 20px;
-    padding-top: 20px;
+    // padding-top: 20px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -33,7 +33,7 @@
     // justify-content: space-between;
   }
   .header__address {
-    padding-bottom: 32px;
+    // padding-bottom: 32px;
     padding-top: 32px;
     display: flex;
     margin-left: 305px;

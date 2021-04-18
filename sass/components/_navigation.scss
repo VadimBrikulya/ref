@@ -101,6 +101,7 @@
 @media screen and (min-width: 1200px) {
   .navigation__menu {
     display: flex;
+    align-items: center;
   }
 
   .navigation__item:not(:last-child) {

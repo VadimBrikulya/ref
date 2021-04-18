@@ -252,6 +252,9 @@ a {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .navigation__item:not(:last-child) {
     margin-right: 50px;
@@ -625,9 +628,16 @@ a {
   letter-spacing: 0.03em;
   text-decoration: none;
   color: #000000;
-  padding-top: 16px;
-  padding-bottom: 16px;
-  margin-right: auto;
+}
+
+.logo-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .header__word-web {
@@ -955,7 +965,6 @@ a {
   .header__address {
     display: inline-block;
     padding-bottom: 20px;
-    padding-top: 20px;
   }
 }
 
@@ -966,7 +975,6 @@ a {
     display: flex;
   }
   .header__address {
-    padding-bottom: 32px;
     padding-top: 32px;
     display: -webkit-box;
     display: -ms-flexbox;

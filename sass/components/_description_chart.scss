@@ -1,0 +1,23 @@
+.desription {
+  margin-top: 10px;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: #757575;
+  &-item {
+    text-align: center;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.142;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--secondary-color);
+    margin-bottom: 10px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .desription-item {
+    text-align: left;
+  }
+}

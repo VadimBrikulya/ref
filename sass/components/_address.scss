@@ -1,0 +1,48 @@
+.header__email-icon,
+.header__tel-icon {
+  margin-right: 10px;
+  fill: currentColor;
+}
+
+.header__tel,
+.header__mail {
+  display: flex;
+  align-items: center;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: #757575;
+  transition: 500ms;
+  // margin-left: 50px;
+  margin-right: auto;
+}
+@media screen and (max-width: 767px) {
+  .header__tel {
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .header__tel,
+  .header__mail {
+    margin-left: 50px;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .header__mail:not(:last-child) {
+    margin-bottom: 10px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .header__mail:not(:last-child) {
+    margin-left: 0;
+  }
+  .header__tel {
+    margin-left: 30px;
+  }
+}

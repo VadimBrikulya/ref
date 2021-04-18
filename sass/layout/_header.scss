@@ -1,6 +1,6 @@
 .header {
   // display: flex;
-  border-bottom: 3px solid #ececec;
+  border-bottom: 1px solid #ececec;
   position: relative;
   // justify-content: space-between;
 }
@@ -11,10 +11,12 @@
     padding-bottom: 20px;
   }
 }
+
 .header__container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-bottom: 1px solid #ececec;
 }
 
 @media screen and (min-width: 768px) {
@@ -28,10 +30,10 @@
   }
 }
 @media screen and (min-width: 1200px) {
-  .header {
-    // display: flex;
-    // justify-content: space-between;
-  }
+  // .header {
+  //   display: flex;
+  //   justify-content: space-between;
+  // }
   .header__address {
     // padding-bottom: 32px;
     padding-top: 32px;

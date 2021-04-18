@@ -7,7 +7,7 @@
   letter-spacing: 0.03em;
   text-decoration: none;
   color: #000000;
-  // padding-top: 16px;
+  padding-top: 16px;
   // padding-bottom: 16px;
   // margin-left: auto;
   // margin-right: auto;
@@ -15,7 +15,11 @@
 
 .logo-box {
   display: flex;
+  margin-left: auto;
+  margin-right: auto;
   flex-direction: column;
+  // align-items: center;
+  justify-content: center;
 }
 .header__word-web {
   color: var(--accent-color);

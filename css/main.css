@@ -670,16 +670,22 @@ a {
   letter-spacing: 0.03em;
   text-decoration: none;
   color: #000000;
+  padding-top: 16px;
 }
 
 .logo-box {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-left: auto;
+  margin-right: auto;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .header__word-web {
@@ -1556,7 +1562,7 @@ a {
 }
 
 .header {
-  border-bottom: 3px solid #ececec;
+  border-bottom: 1px solid #ececec;
   position: relative;
 }
 
@@ -1580,6 +1586,7 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  border-bottom: 1px solid #ececec;
 }
 
 @media screen and (min-width: 768px) {
